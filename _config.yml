@@ -1,8 +1,20 @@
-layout_spectrum: 0.6003584
 color:
   saturation: 0.5770897
-  lightness: 0.7291601
   brandStrength: 0.3019882
   rhythmicContrast: 0.5097936
+  lightness: 0.7291601
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.6003584
 typography_spectrum: 0.01233018
 name: Chiron
